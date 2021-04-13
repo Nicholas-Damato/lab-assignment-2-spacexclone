@@ -80,6 +80,8 @@ header {
     background-size: cover;
     height: 900px;
     width:100%;
+    display: flex;
+    position: relative;
 }
 
 
@@ -89,6 +91,7 @@ header {
     position:absolute;
     bottom: 15%;
     right: 15%;
+    margin-top: 100px;
 }
 
 #flight{
@@ -96,7 +99,6 @@ header {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
     margin: 0;
-    margin-top: 100px;
 }
 
 #flight-head{
@@ -118,3 +120,48 @@ header {
     align-items:center;
     justify-content: center;
 }
+
+.section-three{
+    background-image: url('https://img.wallpapersafari.com/desktop/1680/1050/28/31/mQAc4G.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width:100%;
+    display: flex;
+}
+
+.starlink{
+    display: block;
+    position: absolute;
+    height: 300px;
+    width: 500px;
+    bottom: 20%;
+    left: 15%;
+}
+
+#launch{
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mission{
+    margin:0;
+    font-weight: bold;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.replay-button-left{
+    height: 50px;
+    width: 175px;
+    border: black 2px solid;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
